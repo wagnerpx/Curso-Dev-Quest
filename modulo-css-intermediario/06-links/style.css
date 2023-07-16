@@ -1,0 +1,21 @@
+a {
+    cursor: alias;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: chocolate;
+}
+
+a:active {
+
+}
+
+a:hover {
+    background-color: green;
+    color: white;
+    text-decoration: underline;
+}

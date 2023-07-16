@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: square inside url(./imagens/icon.png);
+}
+
+ul li {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: coral;
+}
+
+ol {
+    list-style: square inside url(./imagens/icon.png);
+}
+ol li {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: chocolate;
+}

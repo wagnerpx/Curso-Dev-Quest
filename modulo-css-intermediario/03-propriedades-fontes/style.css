@@ -1,0 +1,19 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.texto-principal {
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+.texto-simples {
+    background-color: beige;
+    padding: 15px;
+}

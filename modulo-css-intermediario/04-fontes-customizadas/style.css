@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+p {
+    font-family: 'Fira Code', monospace;
+    font-weight: 700;
+    padding: 15px;
+    text-align: justify;
+}
+.texto-destaque {
+    background-color: cadetblue;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+
+.texto-fofoca {
+    background-color: chocolate;
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+
+.texto-noticia{
+    background-color: blueviolet;
+    text-transform: capitalize;
+    text-decoration: overline;
+}

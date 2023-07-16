@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Milk';
+    src: url(./fonts/MilkyNice.ttf), 
+    url(./fonts/MilkyNice.otf);
+}
+
+@font-face {
+    font-family: 'Medieval';
+    src: url(./fonts/Seagram\ tfb.ttf);
+}
+h1 {
+    font-family: 'Medieval', Helvetica, sans-serif;
+    font-weight: 100;
+}
