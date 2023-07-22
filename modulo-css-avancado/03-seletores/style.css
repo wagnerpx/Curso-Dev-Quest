@@ -1,0 +1,41 @@
+h1{
+    color: green;
+}
+h2{
+    background-image: linear-gradient(to left, blue, green);
+}
+.fofoca{
+    color: blue;
+}
+#noticia{
+    color: chocolate;
+}
+.menu{
+    margin-left: 100px;
+}
+*{
+    padding: 0;
+    font-size: 18px;
+}
+.titulo{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.titulo.amarelo{
+     background-color: yellow;
+}
+.titulo.vermelho{
+    background-color: red;
+}
+p, span{
+    font-size: 12px;
+}
+.sobre .texto{
+    color: brown;
+}
+div > p{
+    color: purple;
+}
+div + p{
+    color: crimson;
+}
