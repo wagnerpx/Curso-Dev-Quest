@@ -37,5 +37,11 @@ div > p{
     color: purple;
 }
 div + p{
-    color: crimson;
+    color: green;
+}
+a[target=_blank]{
+    color: orange;
+}
+a[href="google.com"]{
+    color: darkmagenta;
 }
