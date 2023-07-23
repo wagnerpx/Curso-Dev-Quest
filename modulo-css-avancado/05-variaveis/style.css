@@ -1,0 +1,23 @@
+:root{
+    --cor-padrao: red;
+    --tamanho-da-fonte-padrao: 60px;
+    --background-padrao: rgba(229, 238, 130, 0.769);
+}
+
+h2{
+    font-size: var(--tamanho-da-fonte-padrao);
+}
+
+h3 {
+    font-size: var(--tamanho-da-fonte-padrao);
+    color: var(--cor-padrao);
+    background-color: var(--background-padrao);
+}
+
+p {
+    color: var(--cor-padrao);
+}
+
+span {
+    background-color: var(--background-padrao);
+}
