@@ -3,6 +3,18 @@
     width: 960px;
     max-width: 100%;
     flex-wrap: wrap;
+    
+}
+
+.flex h3{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.flex p{
+    text-align: justify;
+    padding: 10px;
 }
 
 .flex img{
