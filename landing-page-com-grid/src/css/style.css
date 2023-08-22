@@ -16,6 +16,8 @@ body{
     font-weight: 400;
 }
 
+/* HEADER */
+
 .header{
     grid-area: header;
     background-color: #fff;
@@ -38,6 +40,8 @@ body{
 .header a:hover h1{
     color: coral;
 }
+
+/* HERO */
 
 .hero{
     grid-area: hero;
@@ -79,20 +83,45 @@ body{
     }
 }
 
+/* ABOUT */
+
 .about{
     grid-area: about;
-    background-color: brown;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
 }
+
+.about .image{
+    height: 100%;
+    width: 100%;
+}
+
+.about .image.right{
+    background: url('../images/bridge.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.about .image.left{
+    background: url('../images/sky.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+/* SERVICES */
 
 .services{
     grid-area: services;
     background-color: aqua;
 }
 
+/* PROJECTS */
+
 .projects{
     grid-area: projects;
     background-color: darkslateblue;
 }
+
+/* FOOTER */
 
 .footer{
     grid-area: footer;
