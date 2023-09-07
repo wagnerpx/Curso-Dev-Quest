@@ -1,4 +1,4 @@
-let boletoPago = false
+const boletoPago = true
 
 if(boletoPago) {
     alert("o boleto está pago!")
