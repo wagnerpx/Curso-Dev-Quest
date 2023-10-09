@@ -9,26 +9,6 @@ console.log(frutas)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // let frutasTamanho = frutas.length
 
 // for(let i = 0; i < frutas.length; i++){
