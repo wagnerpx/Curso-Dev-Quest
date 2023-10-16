@@ -25,8 +25,18 @@
 
 let comida = {
     nome:'Brocólis',
-    temperatura: 0
+    temperatura: 0,
+    cozinhar: function(temperaturaDeCozimento){
+        console.log('this no contexeto do objeto comida', this)
+        this.temperatura = temperaturaDeCozimento
+    }
 }
-comida.cozinhar = function(comidaParaCozinhar, temperaturaDeCozimento){
 
+
+
+comida.cozinhar = function(temperaturaDeCozimento){
+    console.log('this no contexeto do objeto comida', this)
+    this.temperatura = temperaturaDeCozimento
 }
+comida.cozinhar(100)
+console.log(comida)
