@@ -1,5 +1,7 @@
-var pais //declaração
+
 
 console.log(pais)
-pais = 'Brasil' //atribuição
+let pais = 'Brasil' //atribuição
 
+//var pais ==> declaração
+//pais = 'Brasil' ==> atribuição
