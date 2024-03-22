@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 100px;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.azul {
+    background-color: blue;
+}

@@ -1,0 +1,4 @@
+.campo-preenchido {
+    text-transform: uppercase;
+    border: 2px solid green;
+}
