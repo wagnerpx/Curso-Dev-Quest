@@ -1,11 +1,11 @@
-.imagens-slider{
+.imagens-slide{
     position: relative;
     height: 100vh;
     display: flex;
     align-items: center;
 }
 
-.imagens-slider .slider{
+.imagens-slide .slide{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -14,28 +14,27 @@
     position: absolute;
     opacity: 0;
     transition: 0.5s ease-out;
-    /* font-size: 20px; */
     display: flex;
     align-items: center;
 }
 
-.imagens-slider .slider.mostrar{
+.imagens-slide .slide.mostrar{
     opacity: 1;
 }
 
-.slider-rosa{
-    background-image: url(../images/moto-esperança.jpeg);
+.slide-rosa{
+    background-image: url(../images/flores-rosas.png);
 }
 
-.slider-verde{
+.slide-verde{
     background-image: url(../images/flores-verdes.png);
 }
 
-.slider-laranja{
+.slide-laranja{
     background-image: url(../images/montanhas.png);
 }
 
-.slider-azul{
+.slide-azul{
     background-image: url(../images/lago.png);
 }
 
