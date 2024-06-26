@@ -2,8 +2,10 @@
 //     // chave: valor
 //     cor:'Verde',
 //     tamnho: 44,
-//     emEstoque: true
+//     emEstoque: true,
 // }
+// tenis.valor = 300
+// tenis.material = 'jeans'
 // console.log(tenis)
 
 let pessoa = {
