@@ -14,15 +14,15 @@
 
 let nome = 'Alexandre'
 let numero = 8
-let usuarioVerificado = false
+let usuarioVerificado = true
 let pessoa = null
 let telefone = undefined
-console.log(telefone)
+console.log(nome)
 
 
 
-// if(usuarioVerificado){
-//     console.log("usuário verificado")
-// }else{
-//     console.log("usuário não é verificado")
-// }
+ if(usuarioVerificado){
+     console.log("usuário verificado")
+ }else{
+     console.log("usuário não é verificado")
+}
