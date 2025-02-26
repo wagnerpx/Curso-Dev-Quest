@@ -4,12 +4,12 @@ let fogaoEstaLigado = true;
 let ferverAgua = (chaleiraEstaNoFogao, fogaoEstaLigado) => {
   return new Promise((resolve, reject) => {
     if (chaleiraEstaNoFogao && fogaoEstaLigado) {
-      resolve();
-      console.log("Começando o processo de ferver a água");
+      resolve(true);
+      console.log("Passo 1 finalizado: Água foi fervida");
     } else {
       reject();
       console.log(
-        "É necessário ligar o fogão e colocar a chaleira no fogão para ferver a água"
+        "é necessário colocar a chaleira com água e ligaro  fogão senão teu cáfezinho não vai ficar pronto nunca"
       );
     }
   });
@@ -17,21 +17,21 @@ let ferverAgua = (chaleiraEstaNoFogao, fogaoEstaLigado) => {
 
 let passarCafe = (aguaFervida) => {
   return new Promise(function (resolve) {
-    console.log("Passando o café");
+    console.log("Passo 2 finalizado: Café foi passado");
     resolve();
   });
 };
 
 let tomarCafe = (cafePassado) => {
   return new Promise(function (resolve) {
-    console.log("Tomando o café");
+    console.log("Passo 3 finalizado: Terminei de tomar o café");
     resolve();
   });
 };
 
 let lavarXicara = (cafeTomado) => {
   return new Promise(function (resolve) {
-    console.log("Lavando a xícara");
+    console.log("Passo 4 finalizado: Terminei de lavar a xícara");
     resolve();
   });
 };
@@ -49,7 +49,7 @@ ferverAgua(chaleiraEstaNoFogao, fogaoEstaLigado)
 
 */
 
-async function fazerCafe() {
+async function iniciarProcessoDefazerCafe() {
   const aguaFervida = await ferverAgua(chaleiraEstaNoFogao, fogaoEstaLigado);
   const cafePassado = await passarCafe(aguaFervida);
   const cafeTomado = await tomarCafe(cafePassado);
@@ -57,4 +57,19 @@ async function fazerCafe() {
   if (xicaraLavada) console.log("Finalizado o ritual de tomar café");
 }
 
-fazerCafe();
+iniciarProcessoDefazerCafe();
+
+// ferverAgua(chaleiraEstaNoFogao, fogaoEstaLigado)
+//   .then(() => {
+//     return passarCafe();
+//   })
+//   .then(() => {
+//     return tomarCafe();
+//   })
+//   .then(() => {
+//     return lavarXicara();
+//   })
+//   .then(() => {
+//     console.log('Finalizando ritual do café, bora trabalhar');
+
+//   })
