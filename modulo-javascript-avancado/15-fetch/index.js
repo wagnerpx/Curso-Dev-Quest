@@ -22,3 +22,4 @@ async function tirarUmaCartaAleatoriaDoBaralho(){
 }
 
 tirarUmaCartaAleatoriaDoBaralho()
+console.log('segue o fluxo sem esperar');
